@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+body {
+  background-color: #B9DC95;
+  font-family: 'Shadows Into Light', cursive;
+  margin: auto;
+  text-align: center;
+}
+
+h1 {
+  font-size: 100px;
+  margin-bottom: 30px;
+}
+
+.container {
+  margin-top: 8%;
+}
+
+#dice1, #dice2 {
+  padding: 20px 50px;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.btn {
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+  padding: 5px 30px;
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 25px;
+  font-weight: bolder;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 0.5rem;
+}
+
+.btn:hover {
+  background-color: black;
+  color: white;
+  transition: background-color 0.5s ease-out, color 0.5s ease-out;
+}
+
+.hidden {
+  display: none;
+}
